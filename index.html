@@ -8,75 +8,59 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="scene-fx" aria-hidden="true">
-      <div class="night-sky"></div>
-      <div class="stars-layer"></div>
-      <div class="spotlight"></div>
-    </div>
-    <div class="site-shell">
-      <aside class="sidebar" aria-label="Site navigation">
-        <a class="brand" href="index.html" aria-label="Gene Dong home">
-          <img class="brand-photo" src="assets/quick.png" alt="Gene Dong">
-          <span class="brand-name">Gene Dong</span>
-        </a>
-        <nav class="nav" aria-label="Primary navigation">
-          <a class="active" href="index.html">About</a>
-          <a href="resume.html">Resume</a>
-          <a href="projects.html">Projects</a>
-          <a href="hobbies.html">Hobbies</a>
-          <a href="contact.html">Links</a>
-        </nav>
-      </aside>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gene Dong home">
+        <span class="brand-mark">GD</span>
+        <span>Gene Dong</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="active" href="index.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Links</a>
+      </nav>
+    </header>
 
-      <div class="site-main">
-        <main>
-          <section class="hero about-hero">
-            <div class="hero-copy">
-              <p class="eyebrow">Computer Science + Machine Learning</p>
-              <h1>Building data-driven systems with a practical, service-minded edge.</h1>
-              <p class="lead">I am a Computer Science master's student at Georgia Tech focused on machine learning, quantitative analysis, and applied software projects. My work connects technical problem solving with real operating environments, from financial time-series analysis to high-volume customer service leadership.</p>
-              <div class="hero-actions">
-                <a class="button primary" href="projects.html">View Projects</a>
-                <a class="button secondary" href="resume.html">See Resume</a>
-              </div>
-            </div>
-            <figure class="profile-visual" aria-label="Portfolio visual for Gene Dong">
-              <img src="assets/quick.png" alt="Gene Dong">
-            </figure>
-          </section>
+    <main>
+      <section class="hero about-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Computer Science + Machine Learning</p>
+          <h1>Building data-driven systems with a practical, service-minded edge.</h1>
+          <p class="lead">I am a Computer Science master's student at Georgia Tech focused on machine learning, quantitative analysis, and applied software projects. My work connects technical problem solving with real operating environments, from financial time-series analysis to high-volume customer service leadership.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="projects.html">View Projects</a>
+            <a class="button secondary" href="resume.html">See Resume</a>
+          </div>
+        </div>
+        <figure class="profile-visual" aria-label="Portfolio visual for Gene Dong">
+         <img src="profile-card.svg" alt="Abstract portfolio card with Gene Dong initials and data visualization elements">
+        </figure>
+      </section>
 
-          <section class="section">
-            <div class="section-heading">
-              <p class="eyebrow">Background</p>
-              <h2>Education and Experience</h2>
-            </div>
-            <div class="timeline">
-              <article class="timeline-item">
-                <span class="timeline-date">Expected May 2027</span>
-                <div class="timeline-header">
-                  <img class="school-logo" src="assets/pngt.webp" alt="Georgia Tech logo">
-                  <h3>Georgia Institute of Technology</h3>
-                </div>
-                <p>Master of Science in Computer Science with a Machine Learning specialization. Coursework includes Machine Learning for Trading, Artificial Intelligence, Neural Nets and Deep Learning, Database Systems, and Operating Systems.</p>
-              </article>
-              <article class="timeline-item">
-                <span class="timeline-date">Dec 2024</span>
-                <div class="timeline-header">
-                  <img class="school-logo" src="assets/gsung.png" alt="Georgia State University logo">
-                  <h3>Georgia State University</h3>
-                </div>
-                <p>Bachelor of Science in Computer Science, building the foundation for software engineering, data analysis, systems, and applied computing work.</p>
-              </article>
-              <article class="timeline-item">
-                <span class="timeline-date">Current</span>
-                <h3>Okiboru Ramen</h3>
-                <p>Server experience in a fast-paced restaurant environment, balancing accuracy, communication, multitasking, and customer-facing problem solving under pressure.</p>
-              </article>
-            </div>
-          </section>
-        </main>
-      </div>
-    </div>
-    <script src="effects.js" defer></script>
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Background</p>
+          <h2>Education and Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">Expected May 2027</span>
+            <h3>Georgia Institute of Technology</h3>
+            <p>Master of Science in Computer Science with a Machine Learning specialization. Coursework includes Machine Learning for Trading, Artificial Intelligence, Neural Nets and Deep Learning, Database Systems, and Operating Systems.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">Dec 2024</span>
+            <h3>Georgia State University</h3>
+            <p>Bachelor of Science in Computer Science, building the foundation for software engineering, data analysis, systems, and applied computing work.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">Current</span>
+            <h3>Okiboru Ramen</h3>
+            <p>Server experience in a fast-paced restaurant environment, balancing accuracy, communication, multitasking, and customer-facing problem solving under pressure.</p>
+          </article>
+        </div>
+      </section>
+
+    </main>
   </body>
 </html>
