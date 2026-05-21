@@ -1,311 +1,704 @@
+Skip to content
+NoSlurp
+temp
+Repository navigation
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security and quality
+Insights
+Settings
+Commit 0048db6
+NoSlurp
+NoSlurp
+authored
+4 hours ago
+·
+·
+Verified
+Add files via upload
+main
+0 parents  commit 
+0048db6
+5 files changed
+
++717
+Lines changed: 717 additions & 0 deletions
+File tree
+Filter files…
+contact.html
+index.html
+projects.html
+resume.html
+styles.css
+Search within code
+ 
+‎contact.html‎
++50
+Lines changed: 50 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gene Dong | Links</title>
+    <meta name="description" content="Contact links for Gene Dong including email, GitHub, and LinkedIn.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gene Dong home">
+        <span class="brand-mark">GD</span>
+        <span>Gene Dong</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href="contact.html">Links</a>
+      </nav>
+    </header>
+    <main>
+      <section class="contact-panel">
+        <p class="eyebrow">Connect</p>
+        <h1>Find my work and reach out.</h1>
+        <div class="link-grid">
+          <a class="link-card" href="mailto:iamggt@gmail.com">
+            <span>Email</span>
+            <strong>iamggt@gmail.com</strong>
+          </a>
+          <div class="link-card inactive">
+            <span>GitHub</span>
+            <strong>Profile link coming soon</strong>
+          </div>
+          <div class="link-card inactive">
+            <span>LinkedIn</span>
+            <strong>Profile link coming soon</strong>
+          </div>
+          <a class="link-card" href="/Users/genedong/Downloads/Dong26.pdf">
+            <span>Resume PDF</span>
+            <strong>Dong26.pdf</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+‎index.html‎
++66
+Lines changed: 66 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gene Dong | About</title>
+    <meta name="description" content="Portfolio for Gene Dong, a computer science graduate student focused on machine learning, quantitative analysis, and data-driven applications.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gene Dong home">
+        <span class="brand-mark">GD</span>
+        <span>Gene Dong</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="active" href="index.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Links</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero about-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Computer Science + Machine Learning</p>
+          <h1>Building data-driven systems with a practical, service-minded edge.</h1>
+          <p class="lead">I am a Computer Science master's student at Georgia Tech focused on machine learning, quantitative analysis, and applied software projects. My work connects technical problem solving with real operating environments, from financial time-series analysis to high-volume customer service leadership.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="projects.html">View Projects</a>
+            <a class="button secondary" href="resume.html">See Resume</a>
+          </div>
+        </div>
+        <figure class="profile-visual" aria-label="Portfolio visual for Gene Dong">
+          <img src="assets/profile-card.svg" alt="Abstract portfolio card with Gene Dong initials and data visualization elements">
+        </figure>
+      </section>
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Background</p>
+          <h2>Education and Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">Expected May 2027</span>
+            <h3>Georgia Institute of Technology</h3>
+            <p>Master of Science in Computer Science with a Machine Learning specialization. Coursework includes Machine Learning for Trading, Artificial Intelligence, Neural Nets and Deep Learning, Database Systems, and Operating Systems.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">Dec 2024</span>
+            <h3>Georgia State University</h3>
+            <p>Bachelor of Science in Computer Science, building the foundation for software engineering, data analysis, systems, and applied computing work.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">Current</span>
+            <h3>Okiboru Ramen</h3>
+            <p>Server experience in a fast-paced restaurant environment, balancing accuracy, communication, multitasking, and customer-facing problem solving under pressure.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+‎projects.html‎
++89
+Lines changed: 89 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gene Dong | Projects</title>
+    <meta name="description" content="Selected technical projects by Gene Dong in machine learning, computer vision, speech analysis, data pipelines, and applied software.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gene Dong home">
+        <span class="brand-mark">GD</span>
+        <span>Gene Dong</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="contact.html">Links</a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-intro">
+        <p class="eyebrow">Selected Projects</p>
+        <h1>Applied work across AI, data processing, and practical software systems.</h1>
+      </section>
+      <section class="project-grid">
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1758900348926-cd1ccbc15fef?auto=format&fit=crop&q=80&w=1000" alt="Aerial view of a ship traveling through dark water">
+          <div>
+            <p class="project-meta">Computer Vision · Python · Model Evaluation</p>
+            <h2>Ship Detection</h2>
+            <p>A computer vision project focused on identifying ships in image data, with attention to detection accuracy, false positives, and performance across different visual conditions.</p>
+            <ul>
+              <li>Prepared image data for object detection and visual inspection.</li>
+              <li>Evaluated model outputs against expected ship locations.</li>
+              <li>Explored how lighting, water texture, and scale affect detection quality.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1612120773237-7b9d5110e1e1?auto=format&fit=crop&q=80&w=1000" alt="Audio mixer and microphone used for speech recording">
+          <div>
+            <p class="project-meta">Speech Analysis · Machine Learning · Python</p>
+            <h2>Speech-Based Dementia Detection</h2>
+            <p>A machine learning project exploring how speech patterns can be used as signals for dementia-related classification or screening support.</p>
+            <ul>
+              <li>Worked with speech-derived features such as timing, fluency, or acoustic indicators.</li>
+              <li>Compared model behavior across different feature sets.</li>
+              <li>Focused on explainability and responsible framing for health-related AI.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1545941962-1b6654eb8072?auto=format&fit=crop&q=80&w=1000" alt="Official receipt on a white surface">
+          <div>
+            <p class="project-meta">Python · Pandas · Data Cleaning</p>
+            <h2>Grocery Receipt AI</h2>
+            <p>Built an automated data workflow for ingesting, cleaning, validating, and analyzing structured and unstructured transaction data.</p>
+            <ul>
+              <li>Engineered features to identify spending trends and anomalies.</li>
+              <li>Documented assumptions to improve reproducibility.</li>
+              <li>Created a base for future receipt parsing or categorization models.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&q=80&w=1000" alt="Food courier riding a bicycle">
+          <div>
+            <p class="project-meta">Full-Stack App · Logistics · User Workflow</p>
+            <h2>Food Courier</h2>
+            <p>An application concept centered on food delivery coordination, connecting order details, courier status, and customer-facing updates into a smoother delivery workflow.</p>
+            <ul>
+              <li>Designed around courier assignment, delivery status, and order visibility.</li>
+              <li>Prioritized clear user flows for customers, couriers, and restaurant staff.</li>
+              <li>Can be expanded with maps, authentication, order history, and notifications.</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+‎resume.html‎
++96
+Lines changed: 96 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gene Dong | Resume Overview</title>
+    <meta name="description" content="Resume overview for Gene Dong, highlighting education, skills, work experience, and selected technical strengths.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gene Dong home">
+        <span class="brand-mark">GD</span>
+        <span>Gene Dong</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">About</a>
+        <a class="active" href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Links</a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-intro">
+        <p class="eyebrow">Resume Overview</p>
+        <h1>A quick view of the experience behind the work.</h1>
+        <p class="lead">My resume combines graduate-level computer science training, applied quantitative projects, and customer-facing work that sharpened my communication, accuracy, and leadership in high-pressure environments.</p>
+      </section>
+      <section class="resume-layout">
+        <aside class="resume-sidebar">
+          <h2>Core Skills</h2>
+          <ul class="tag-list">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>SciPy</li>
+            <li>Matplotlib</li>
+            <li>Portfolio Optimization</li>
+            <li>Backtesting</li>
+            <li>Risk Analysis</li>
+            <li>Git</li>
+            <li>Linux</li>
+            <li>AWS EC2/S3</li>
+          </ul>
+        </aside>
+        <section class="resume-main" aria-label="Resume highlights">
+          <section class="resume-section" aria-labelledby="education-heading">
+            <div class="section-label">
+              <p class="eyebrow">Education</p>
+              <h2 id="education-heading">Academic Background</h2>
+            </div>
+            <article class="resume-card">
+              <span class="resume-date">Expected May 2027</span>
+              <h3>MS Computer Science, Machine Learning</h3>
+              <p>Georgia Institute of Technology, College of Computing. Relevant coursework includes Machine Learning for Trading, Artificial Intelligence, Neural Nets and Deep Learning, Database Systems, Operating Systems, and Machine Learning.</p>
+            </article>
+            <article class="resume-card">
+              <span class="resume-date">Dec 2024</span>
+              <h3>BS Computer Science</h3>
+              <p>Georgia State University. Built a technical foundation across programming, algorithms, systems, databases, and software development.</p>
+            </article>
+          </section>
+          <section class="resume-section okiboru-section" aria-labelledby="okiboru-heading">
+            <div class="section-label">
+              <p class="eyebrow">Current Role</p>
+              <h2 id="okiboru-heading">Okiboru Ramen</h2>
+            </div>
+            <article class="resume-card featured">
+              <span class="resume-date">2025 - Current</span>
+              <h3>Server / Lead Server</h3>
+              <p>Serve guests in a high-volume restaurant environment while maintaining accurate orders, payments, communication, and table management. As a lead server, support shift flow, help coordinate service, and handle guest or payment issues in real time.</p>
+            </article>
+          </section>
+          <section class="resume-section" aria-labelledby="experience-heading">
+            <div class="section-label">
+              <p class="eyebrow">Experience</p>
+              <h2 id="experience-heading">Work Highlights</h2>
+            </div>
+            <article class="resume-card">
+              <span class="resume-date">May 2022 - 2025</span>
+              <h3>JINYA Ramen Bar - Server</h3>
+              <p>Processed 150+ customer transactions per shift, managed 6-8 tables during peak periods, and supported daily revenue operations with accurate order entry and payment reconciliation.</p>
+            </article>
+          </section>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
+‎styles.css‎
++416
+Lines changed: 416 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,416 @@
+:root {
+  --bg: #f7f4ee;
+  --surface: #ffffff;
+  --surface-strong: #f0e7da;
+  --text: #1e2524;
+  --muted: #66706a;
+  --line: #d9d0c3;
+  --accent: #176f6b;
+  --accent-dark: #0d4d4a;
+  --warm: #c45f3c;
+  --shadow: 0 18px 50px rgba(30, 37, 36, 0.1);
+}
 * {
   box-sizing: border-box;
 }
-
-:root {
-  --bg-overlay: rgba(12, 14, 22, 0.82);
-  --card: rgba(24, 28, 40, 0.92);
-  --card-border: rgba(255, 255, 255, 0.08);
-  --text: #eef0f6;
-  --muted: #9aa3b8;
-  --accent: #7c9cff;
-  --accent-2: #5eead4;
-  --danger: #ff7b8a;
-  --bubble: rgba(255, 255, 255, 0.94);
-  --bubble-text: #1a1d28;
-}
-
-html, body {
-  margin: 0;
-  min-height: 100%;
-}
-
 body {
-  font-family: "Segoe UI", system-ui, sans-serif;
-  color: var(--text);
-  line-height: 1.45;
-  background: #0c0e16 url("https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1920&q=80") center / cover fixed no-repeat;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: linear-gradient(135deg, var(--bg-overlay) 0%, rgba(20, 24, 38, 0.88) 55%, rgba(10, 12, 20, 0.9) 100%);
-  z-index: 0;
-  pointer-events: none;
-}
-
-#chat-bubbles {
-  position: fixed;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.chat-bubble {
-  position: absolute;
-  max-width: 220px;
-  padding: 0.65rem 0.9rem;
-  background: var(--bubble);
-  color: var(--bubble-text);
-  border-radius: 1rem 1rem 1rem 0.25rem;
-  font-size: 0.82rem;
-  font-weight: 500;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
-  opacity: 0;
-  transform: translateY(12px) scale(0.95);
-  animation: bubble-in 0.5s ease forwards, bubble-float 6s ease-in-out 0.5s infinite;
-}
-
-.chat-bubble.alt {
-  border-radius: 1rem 1rem 0.25rem 1rem;
-  background: linear-gradient(135deg, #e8eeff, #f0fdfa);
-}
-
-@keyframes bubble-in {
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-@keyframes bubble-float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
-}
-
-.app {
-  position: relative;
-  z-index: 2;
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 1.5rem 1.25rem 3rem;
-}
-
-.hero {
-  margin-bottom: 1.25rem;
-}
-
-.hero .tag {
-  display: inline-block;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--accent-2);
-  margin-bottom: 0.35rem;
-}
-
-.hero h1 {
-  margin: 0 0 0.35rem;
-  font-size: clamp(1.75rem, 4vw, 2.35rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.hero p.lead {
   margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+a {
+  color: inherit;
+}
+.site-header {
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 22px 24px;
+}
+.brand {
+  align-items: center;
+  display: inline-flex;
+  font-weight: 800;
+  gap: 12px;
+  text-decoration: none;
+}
+.brand-mark {
+  align-items: center;
+  background: var(--text);
+  border-radius: 8px;
+  color: white;
+  display: inline-flex;
+  font-size: 0.9rem;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+.nav {
+  display: flex;
+  gap: 6px;
+}
+.nav a {
+  border-radius: 8px;
   color: var(--muted);
-  max-width: 36rem;
-}
-
-#status {
-  margin: 0.75rem 0 1rem;
-  min-height: 1.25rem;
   font-size: 0.95rem;
+  font-weight: 700;
+  padding: 9px 12px;
+  text-decoration: none;
 }
-
-#status.error {
-  color: var(--danger);
+.nav a:hover,
+.nav a.active {
+  background: var(--surface-strong);
+  color: var(--text);
 }
-
-.card {
-  background: var(--card);
-  border: 1px solid var(--card-border);
-  border-radius: 12px;
-  padding: 1.25rem 1.35rem;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+main {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 48px 24px 72px;
 }
-
-.user-bar {
+.hero {
+  align-items: center;
+  display: grid;
+  gap: 48px;
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+  min-height: 540px;
+}
+.hero-copy,
+.page-intro,
+.contact-panel {
+  max-width: 780px;
+}
+.eyebrow {
+  color: var(--accent-dark);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+h1 {
+  font-size: clamp(2.45rem, 5vw, 5.2rem);
+  letter-spacing: 0;
+  line-height: 0.98;
+  margin-bottom: 24px;
+  max-width: 920px;
+}
+h2 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  letter-spacing: 0;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+h3 {
+  font-size: 1.1rem;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.lead {
+  color: var(--muted);
+  font-size: 1.16rem;
+  max-width: 720px;
+}
+.hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 1rem;
-  align-items: center;
-  margin-bottom: 1rem;
-  font-size: 0.95rem;
+  gap: 12px;
+  margin-top: 30px;
 }
-
-.tabs {
-  display: flex;
-  gap: 0.35rem;
-  margin-bottom: 1rem;
-}
-
-.tabs button {
-  border: 1px solid var(--card-border);
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--text);
-  padding: 0.5rem 1.1rem;
-  cursor: pointer;
+.button {
+  border: 1px solid var(--text);
   border-radius: 8px;
-  font-size: 0.9rem;
-  transition: background 0.15s, border-color 0.15s;
+  font-weight: 800;
+  padding: 12px 18px;
+  text-decoration: none;
 }
-
-.tabs button:hover {
-  background: rgba(255, 255, 255, 0.1);
+.button.primary {
+  background: var(--text);
+  color: white;
 }
-
-.tabs button.active {
-  background: var(--accent);
-  border-color: transparent;
-  color: #0c0e16;
-  font-weight: 600;
-}
-
-.panel[hidden] {
-  display: none;
-}
-
-.panel-intro {
-  color: var(--muted);
-  font-size: 0.92rem;
-  margin: 0 0 1rem;
-}
-
-.table-wrap {
-  overflow-x: auto;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.92rem;
-}
-
-th, td {
-  text-align: left;
-  padding: 0.65rem 0.5rem;
-  border-bottom: 1px solid var(--card-border);
-}
-
-th {
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--muted);
-}
-
-td.item-name {
-  font-weight: 500;
-}
-
-td.item-name .cat {
-  display: block;
-  font-size: 0.75rem;
-  color: var(--muted);
-  font-weight: 400;
-}
-
-.sold-out {
-  color: var(--muted);
-}
-
-td.qty input {
-  width: 4rem;
-  padding: 0.35rem 0.4rem;
-  border-radius: 6px;
-  border: 1px solid var(--card-border);
-  background: rgba(0, 0, 0, 0.25);
-  color: var(--text);
-}
-
-button, .btn {
-  cursor: pointer;
-  border: none;
-  border-radius: 8px;
-  padding: 0.45rem 0.9rem;
-  font-size: 0.88rem;
-  font-weight: 600;
-  background: var(--accent-2);
-  color: #0c0e16;
-  transition: filter 0.15s, transform 0.1s;
-}
-
-button:hover:not(:disabled) {
-  filter: brightness(1.08);
-}
-
-button:disabled {
-  opacity: 0.45;
-  cursor: not-allowed;
-}
-
-button.ghost {
+.button.secondary {
   background: transparent;
-  color: var(--text);
-  border: 1px solid var(--card-border);
 }
-
-button.buy-btn {
-  background: var(--accent);
-  color: #fff;
-}
-
-#purchases-list {
-  list-style: none;
-  padding: 0;
+.profile-visual {
   margin: 0;
 }
-
-#purchases-list li {
-  padding: 0.85rem 0;
-  border-bottom: 1px solid var(--card-border);
+.profile-visual img {
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: block;
+  height: auto;
+  width: 100%;
 }
-
-#purchases-list .meta {
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin-top: 0.2rem;
+.section {
+  border-top: 1px solid var(--line);
+  padding: 64px 0 0;
 }
-
-.auth-grid {
+.section + .section {
+  margin-top: 64px;
+}
+.section-heading {
+  margin-bottom: 26px;
+  max-width: 720px;
+}
+.timeline {
   display: grid;
-  gap: 1.5rem;
+  gap: 16px;
 }
-
-@media (min-width: 640px) {
-  .auth-grid {
-    grid-template-columns: 1fr 1fr;
+.timeline-item,
+.resume-card,
+.project-card,
+.link-card,
+.focus-grid article,
+.resume-sidebar {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.timeline-item {
+  padding: 24px;
+}
+.timeline-date,
+.resume-date,
+.project-meta {
+  color: var(--warm);
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.page-intro {
+  margin-bottom: 42px;
+}
+.resume-layout {
+  align-items: start;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 320px 1fr;
+}
+.resume-sidebar {
+  padding: 24px;
+  position: sticky;
+  top: 24px;
+}
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tag-list li {
+  background: var(--surface-strong);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  padding: 8px 10px;
+}
+.resume-main {
+  display: grid;
+  gap: 32px;
+}
+.resume-section {
+  display: grid;
+  gap: 16px;
+}
+.section-label {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 10px;
+}
+.section-label h2 {
+  margin-bottom: 0;
+}
+.resume-card {
+  padding: 26px;
+}
+.resume-card.featured {
+  border-color: rgba(23, 111, 107, 0.45);
+  box-shadow: var(--shadow);
+}
+.okiboru-section {
+  background: linear-gradient(135deg, rgba(23, 111, 107, 0.08), rgba(196, 95, 60, 0.08));
+  border: 1px solid rgba(23, 111, 107, 0.18);
+  border-radius: 8px;
+  padding: 18px;
+}
+.project-grid {
+  display: grid;
+  gap: 18px;
+}
+.project-card {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 220px 1fr;
+  overflow: hidden;
+  padding: 18px;
+}
+.project-card img {
+  background: var(--surface-strong);
+  border-radius: 8px;
+  display: block;
+  height: 100%;
+  min-height: 190px;
+  object-fit: cover;
+  width: 100%;
+}
+.project-card ul {
+  color: var(--muted);
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+.contact-panel {
+  margin: 34px auto 0;
+  text-align: center;
+}
+.contact-panel .lead {
+  margin-left: auto;
+  margin-right: auto;
+}
+.link-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 34px;
+  text-align: left;
+}
+.link-card {
+  padding: 24px;
+  text-decoration: none;
+}
+.link-card:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+}
+.link-card.inactive {
+  color: var(--muted);
+}
+.link-card.inactive:hover {
+  border-color: var(--line);
+  box-shadow: none;
+}
+.link-card span {
+  color: var(--muted);
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+.link-card strong {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 860px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .nav {
+    flex-wrap: wrap;
+  }
+  .hero,
+  .resume-layout,
+  .project-card,
+  .link-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    min-height: auto;
+  }
+  .resume-sidebar {
+    position: static;
   }
 }
-
-form label {
-  display: block;
-  margin: 0.4rem 0;
-  font-size: 0.9rem;
+@media (max-width: 520px) {
+  main {
+    padding-top: 32px;
+  }
+  h1 {
+    font-size: 2.35rem;
+  }
+  .nav a {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  .project-card {
+    padding: 12px;
+  }
 }
-
-form h3 {
-  margin: 0 0 0.5rem;
-  font-size: 1rem;
-}
-
-input[type="email"],
-input[type="password"] {
-  width: 100%;
-  margin-top: 0.25rem;
-  padding: 0.5rem 0.6rem;
-  border-radius: 8px;
-  border: 1px solid var(--card-border);
-  background: rgba(0, 0, 0, 0.25);
-  color: var(--text);
-}
-
-input:focus {
-  outline: 2px solid var(--accent);
-  outline-offset: 1px;
-}
+0 commit comments
+Comments
+0
+ (0)
+Comment
+4 files remain
