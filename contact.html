@@ -3,49 +3,86 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gene Dong | Links</title>
-    <meta name="description" content="Contact links for Gene Dong including email, GitHub, and LinkedIn.">
+    <title>Gene Dong | About</title>
+    <meta name="description" content="Portfolio for Gene Dong, a computer science graduate student focused on machine learning, quantitative analysis, and data-driven applications.">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="index.html" aria-label="Gene Dong home">
-        <span class="brand-mark">GD</span>
-        <span>Gene Dong</span>
-      </a>
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="index.html">About</a>
-        <a href="resume.html">Resume</a>
-        <a href="projects.html">Projects</a>
-        <a class="active" href="contact.html">Links</a>
-      </nav>
-    </header>
+    <div class="site-shell">
+      <aside class="sidebar" aria-label="Site navigation">
+        <a class="brand" href="index.html" aria-label="Gene Dong home">
+          <img class="brand-photo" src="assets/profile.jpg" alt="Gene Dong" onerror="this.onerror=null;this.src='assets/profile-placeholder.svg';">
+          <span class="brand-name">Gene Dong</span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="active" href="index.html">About</a>
+          <a href="resume.html">Resume</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Links</a>
+        </nav>
+      </aside>
 
-    <main>
-      <section class="contact-panel">
-        <p class="eyebrow">Connect</p>
-        <h1>Find my work and reach out.</h1>
+      <div class="site-main">
+        <main>
+          <section class="hero about-hero">
+            <div class="hero-copy">
+              <p class="eyebrow">Computer Science + Machine Learning</p>
+              <h1>Building data-driven systems with a practical, service-minded edge.</h1>
+              <p class="lead">I am a Computer Science master's student at Georgia Tech focused on machine learning, quantitative analysis, and applied software projects. My work connects technical problem solving with real operating environments, from financial time-series analysis to high-volume customer service leadership.</p>
+              <div class="hero-actions">
+                <a class="button primary" href="projects.html">View Projects</a>
+                <a class="button secondary" href="resume.html">See Resume</a>
+              </div>
+            </div>
+            <figure class="profile-visual" aria-label="Portfolio visual for Gene Dong">
+              <img src="assets/profile.jpg" alt="Gene Dong" onerror="this.onerror=null;this.src='profile-card.svg';">
+            </figure>
+          </section>
 
-        <div class="link-grid">
-          <a class="link-card" href="mailto:iamggt@gmail.com">
-            <span>Email</span>
-            <strong>iamggt@gmail.com</strong>
-          </a>
-          <div class="link-card inactive">
-            <span>GitHub</span>
-            <strong>Profile link coming soon</strong>
-          </div>
-          <div class="link-card inactive">
-            <span>LinkedIn</span>
-            <strong>Profile link coming soon</strong>
-          </div>
-          <a class="link-card" href="/Users/genedong/Downloads/Dong26.pdf">
-            <span>Resume PDF</span>
-            <strong>Dong26.pdf</strong>
-          </a>
-        </div>
-      </section>
-    </main>
+          <section class="section">
+            <div class="section-heading">
+              <p class="eyebrow">Background</p>
+              <h2>Education and Experience</h2>
+            </div>
+            <div class="timeline">
+              <article class="timeline-item">
+                <span class="timeline-date">Expected May 2027</span>
+                <div class="timeline-header">
+                  <img class="school-logo" src="assets/georgia-tech.svg" alt="Georgia Tech logo">
+                  <h3>Georgia Institute of Technology</h3>
+                </div>
+                <p>Master of Science in Computer Science with a Machine Learning specialization. Coursework includes Machine Learning for Trading, Artificial Intelligence, Neural Nets and Deep Learning, Database Systems, and Operating Systems.</p>
+              </article>
+              <article class="timeline-item">
+                <span class="timeline-date">Dec 2024</span>
+                <div class="timeline-header">
+                  <img class="school-logo" src="assets/georgia-state.svg" alt="Georgia State University logo">
+                  <h3>Georgia State University</h3>
+                </div>
+                <p>Bachelor of Science in Computer Science, building the foundation for software engineering, data analysis, systems, and applied computing work.</p>
+              </article>
+              <article class="timeline-item">
+                <span class="timeline-date">Current</span>
+                <h3>Okiboru Ramen</h3>
+                <p>Server experience in a fast-paced restaurant environment, balancing accuracy, communication, multitasking, and customer-facing problem solving under pressure.</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="section hobbies-section">
+            <div class="section-heading">
+              <p class="eyebrow">Personal</p>
+              <h2>Hobbies</h2>
+            </div>
+            <div class="hobbies-panel">
+              <p class="lead hobbies-placeholder">Add your hobbies below — replace this line or delete it once you add list items.</p>
+              <ul class="hobbies-list" aria-label="Hobbies">
+                <!-- <li>Example hobby</li> -->
+              </ul>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
   </body>
 </html>
-
