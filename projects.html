@@ -8,16 +8,22 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div class="scene-fx" aria-hidden="true">
+      <div class="night-sky"></div>
+      <div class="stars-layer"></div>
+      <div class="spotlight"></div>
+    </div>
     <div class="site-shell">
       <aside class="sidebar" aria-label="Site navigation">
         <a class="brand" href="index.html" aria-label="Gene Dong home">
-          <img class="brand-photo" src="assets/profile.jpg" alt="Gene Dong" onerror="this.onerror=null;this.src='assets/profile-placeholder.svg';">
+          <img class="brand-photo" src="assets/quick.png" alt="Gene Dong">
           <span class="brand-name">Gene Dong</span>
         </a>
         <nav class="nav" aria-label="Primary navigation">
           <a href="index.html">About</a>
           <a href="resume.html">Resume</a>
           <a class="active" href="projects.html">Projects</a>
+          <a href="hobbies.html">Hobbies</a>
           <a href="contact.html">Links</a>
         </nav>
       </aside>
@@ -89,5 +95,6 @@
         </main>
       </div>
     </div>
+    <script src="effects.js" defer></script>
   </body>
 </html>
