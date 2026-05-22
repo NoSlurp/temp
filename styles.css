@@ -30,6 +30,7 @@ a {
 .site-header {
   align-items: center;
   border-bottom: 1px solid var(--line);
+  border-radius: 50%;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
