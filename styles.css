@@ -48,13 +48,13 @@ a {
 .brand-mark {
   align-items: center;
   background: var(--text);
-  border-radius: 8px;
+  border-radius: 50%;
   color: white;
   display: inline-flex;
   font-size: 0.9rem;
-  height: 40px;
+  height: 25px;
   justify-content: center;
-  width: 40px;
+  width: 25px;
 }
 
 .nav {
