@@ -285,6 +285,7 @@ h3 {
 }
 
 .okiboru-section {
+  position : sticky;
   background: linear-gradient(135deg, rgba(23, 111, 107, 0.08), rgba(196, 95, 60, 0.08));
   border: 1px solid rgba(23, 111, 107, 0.18);
   border-radius: 8px;
