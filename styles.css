@@ -292,7 +292,7 @@ h3 {
 }
 
 .project-grid {
-  display: grid;
+  display : round;
   gap: 18px;
 }
 
