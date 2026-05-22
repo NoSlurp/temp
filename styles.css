@@ -304,6 +304,25 @@ h3 {
   padding: 8px 10px;
 }
 
+.tag-list li {
+  background: var(--surface-strong);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  padding: 8px 10px;
+  
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent; 
+}
+
+.tag-list li:hover {
+  background: var(--surface);       
+  border: 1px solid var(--accent);  
+  color: var(--accent-dark);        
+  transform: translateY(-2px);     
+}
 .resume-main {
   display: grid;
   gap: 32px;
