@@ -215,6 +215,13 @@ h3 {
 
 .timeline-item {
   padding: 24px;
+  transition: all 0.2s ease; 
+}
+.timeline-item:hover {
+  background: var(--surface-strong); 
+  border-color: var(--accent);       
+  cursor: pointer;                  
+  transform: translateY(-2px);       
 }
 
 .timeline-date,
