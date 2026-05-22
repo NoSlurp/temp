@@ -214,6 +214,8 @@ h3 {
 .timeline-date,
 .resume-date,
 .project-meta {
+.nav a:hover {
+  background: var(--surface-strong);
   color: var(--warm);
   display: block;
   font-size: 0.82rem;
