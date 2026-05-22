@@ -227,7 +227,18 @@ h3 {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
+.project-card {
+  transition: all 0.2s ease; 
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
 
+.project-card:hover {
+  background: var(--surface-strong); 
+  border-color: var(--accent);       
+  cursor: pointer;                   
+  transform: translateY(-4px);      
+}
 .page-intro {
   margin-bottom: 42px;
 }
